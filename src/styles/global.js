@@ -13,5 +13,7 @@ export default createGlobalStyle`
 body{
     font-size: 1.6rem;
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_DEFAULT};
+    font-family: 'Roboto Slab', serif;
+    height: 100vh;
 }
 `;
