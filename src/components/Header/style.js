@@ -8,6 +8,7 @@ export const Container = styled.div`
   align-items: center;
   gap: 6.4rem;
   background-color: ${({ theme }) => theme.COLORS.BACKGROUND_DEFAULT};
+  border-bottom: 1px solid ${({ theme }) => theme.COLORS.DARK};
 
   > h1 {
     width: fit-content;
@@ -26,6 +27,7 @@ export const Profile = styled.div`
     flex-direction: column;
     justify-content: center;
     width: max-content;
+
     > h1 {
       font-size: 1.4rem;
       font-weight: 700;
