@@ -1,11 +1,11 @@
 import { Header } from "../../components/Header";
-import { Container } from "../../components/Input/style";
+import { Container } from "./style";
 
 export function Home() {
   return (
     <Container>
       <Header />
-      <main></main>
+      <main>teste</main>
     </Container>
   );
 }
