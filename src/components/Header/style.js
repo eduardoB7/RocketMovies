@@ -10,7 +10,11 @@ export const Container = styled.div`
   background-color: ${({ theme }) => theme.COLORS.BACKGROUND_DEFAULT};
   border-bottom: 1px solid ${({ theme }) => theme.COLORS.DARK};
 
-  > h1 {
+  > .Title {
+    cursor: pointer;
+    font-family: "Roboto Slab", serif;
+    background: none;
+    border: none;
     width: fit-content;
     color: ${({ theme }) => theme.COLORS.TITLE_BUTTON};
     font-weight: 700;

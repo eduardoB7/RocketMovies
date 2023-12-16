@@ -4,7 +4,7 @@ import { Container, Profile } from "./style";
 export function Header() {
   return (
     <Container>
-      <h1>RocketMovies</h1>
+      <button className="Title">RocketMovies</button>
       <Input placeholder={"Pesquisar"} />
       <Profile>
         <section>
