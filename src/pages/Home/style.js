@@ -9,10 +9,25 @@ export const Container = styled.div`
     "content";
 
   grid-template-rows: 11.6rem auto;
+`;
+
+export const Content = styled.div`
+  grid-area: content;
+  width: 100%;
+  padding: 5rem 12.3rem;
 
   > main {
-    margin: 0 auto;
+    color: white;
     flex: 1;
-    grid-area: content;
+
+    > header {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    > h1 {
+      font-size: 3.2rem;
+      font-weight: 400;
+    }
   }
 `;
