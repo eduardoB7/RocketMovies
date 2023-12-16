@@ -4,7 +4,9 @@ import { Container, Profile } from "./style";
 export function Header() {
   return (
     <Container>
-      <button className="Title">RocketMovies</button>
+      <a href="/" className="Title">
+        RocketMovies
+      </a>
       <Input placeholder={"Pesquisar"} />
       <Profile>
         <section>

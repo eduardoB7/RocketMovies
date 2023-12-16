@@ -4,7 +4,7 @@ export const Container = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0.8rem;
+  gap: 0.6rem;
   border: none;
   border-radius: 8px;
 

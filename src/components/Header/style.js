@@ -11,6 +11,7 @@ export const Container = styled.div`
   border-bottom: 1px solid ${({ theme }) => theme.COLORS.DARK};
 
   > .Title {
+    text-decoration: none;
     cursor: pointer;
     font-family: "Roboto Slab", serif;
     background: none;

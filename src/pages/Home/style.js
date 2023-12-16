@@ -17,12 +17,14 @@ export const Content = styled.div`
   padding: 5rem 12.3rem;
 
   > main {
+    overflow-y: auto;
     color: white;
     flex: 1;
 
     > header {
       display: flex;
       justify-content: space-between;
+      margin-bottom: 3.7rem;
     }
 
     > h1 {
