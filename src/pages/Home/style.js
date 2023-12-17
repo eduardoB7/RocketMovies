@@ -12,12 +12,12 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.div`
-  grid-area: content;
   width: 100%;
   padding: 5rem 12.3rem;
+  overflow-y: auto;
 
   > main {
-    overflow-y: auto;
+    grid-area: content;
     color: white;
     flex: 1;
 

@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
+  margin-bottom: 2.4rem;
   border-radius: 16px;
   background: rgba(255, 133, 155, 0.05);
   width: 100%;
@@ -39,4 +40,21 @@ export const Container = styled.section`
     font-weight: 400;
     overflow: hidden;
   }
+
+  > .tags {
+    display: flex;
+    gap: 0.8rem;
+  }
+`;
+
+export const Tag = styled.div`
+  border: none;
+  border-radius: 0.8rem;
+  background-color: ${({ theme }) => theme.COLORS.DARK};
+  padding: 0.5rem 1.6rem;
+
+  color: #e5e5e5;
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-align: center;
 `;
