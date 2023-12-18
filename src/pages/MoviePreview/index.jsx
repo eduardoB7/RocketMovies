@@ -5,6 +5,10 @@ import { FaRegStar } from "react-icons/fa6";
 import { FaStar } from "react-icons/fa";
 import { CiClock2 } from "react-icons/ci";
 
+import { Movie } from "../../module/Movie";
+
+const moviePreviw = new Movie();
+
 import { Container, Content, Tag } from "./style";
 
 export function MoviePreview() {
@@ -15,7 +19,7 @@ export function MoviePreview() {
         <ButtonText icon={GoArrowLeft} texContent={`Voltar`} />
         <main>
           <section>
-            <h1>Interestellar</h1>
+            <h1>{(moviePreviw.title = "interestellar")}</h1>
             <div className="avaible">
               <FaStar />
               <FaStar />
