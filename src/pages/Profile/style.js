@@ -19,7 +19,7 @@ export const Container = styled.div`
 `;
 
 export const FormProfile = styled.form`
-  max-width: 340px;
+  width: 340px;
   margin: 30px auto 0;
 
   > div:nth-child(4) {

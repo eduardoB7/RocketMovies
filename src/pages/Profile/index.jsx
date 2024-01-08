@@ -3,6 +3,7 @@ import { Container, FormProfile, Avatar } from "./style";
 import { GoArrowLeft } from "react-icons/go";
 import { FiArrowLeft, FiUser, FiMail, FiLock, FiCamera } from "react-icons/fi";
 
+import { Input } from "../../components/Input";
 import { ButtonText } from "../../components/ButtonText";
 
 export function Profile() {
@@ -20,6 +21,8 @@ export function Profile() {
             <input id="avatar" type="file" />
           </label>
         </Avatar>
+        <Input icon={FiUser} placeholder={"Nome"} required />
+        <Input icon={FiMail} placeholder={"Email"} type={"email"} required />
       </FormProfile>
     </Container>
   );

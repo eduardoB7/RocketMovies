@@ -1,9 +1,10 @@
 import { Container } from "./style";
 
-export function Input({ placeholder }) {
+export function Input({ icon: Icon, ...res }) {
   return (
     <Container>
-      <input type="text" placeholder={placeholder} />
+      {Icon && <Icon size={20} />} {/* Renderiza o ícone como um componente */}
+      <input {...res} />
     </Container>
   );
 }
