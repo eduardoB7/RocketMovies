@@ -1,10 +1,11 @@
 import { Container, FormProfile, Avatar } from "./style";
 
 import { GoArrowLeft } from "react-icons/go";
-import { FiArrowLeft, FiUser, FiMail, FiLock, FiCamera } from "react-icons/fi";
+import { FiUser, FiMail, FiLock, FiCamera } from "react-icons/fi";
 
 import { Input } from "../../components/Input";
 import { ButtonText } from "../../components/ButtonText";
+import { Button } from "../../components/Button";
 
 export function Profile() {
   return (
@@ -23,6 +24,14 @@ export function Profile() {
         </Avatar>
         <Input icon={FiUser} placeholder={"Nome"} required />
         <Input icon={FiMail} placeholder={"Email"} type={"email"} required />
+        <Input icon={FiLock} placeholder={"Senha"} type={"password"} required />
+        <Input
+          icon={FiLock}
+          placeholder={"Nova senha"}
+          type={"password"}
+          required
+        />
+        <Button texContent={"Salvar"} />
       </FormProfile>
     </Container>
   );

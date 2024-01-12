@@ -25,6 +25,11 @@ export const FormProfile = styled.form`
   > div:nth-child(4) {
     margin-top: 24px;
   }
+
+  > button {
+    margin-top: 2rem;
+    width: 100%;
+  }
 `;
 
 export const Avatar = styled.div`
