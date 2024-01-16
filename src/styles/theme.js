@@ -7,5 +7,6 @@ export default {
     WHITE: "#F4EDE8",
     GRAY: "#CAC4CF",
     DARK: "#312E38",
+    BACKGROUND_00: "#262529",
   },
 };
