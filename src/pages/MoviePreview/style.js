@@ -94,7 +94,7 @@ export const Content = styled.div`
   }
 `;
 
-export const Tag = styled.div`
+export const TagArea = styled.div`
   margin: 4rem 0;
   border: none;
   border-radius: 0.8rem;
