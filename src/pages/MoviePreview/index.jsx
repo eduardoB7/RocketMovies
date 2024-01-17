@@ -1,5 +1,4 @@
 import { Header } from "../../components/Header";
-import { Tag } from "../../components/Tag";
 import { ButtonText } from "../../components/ButtonText";
 import { GoArrowLeft } from "react-icons/go";
 import { FaRegStar } from "react-icons/fa6";
@@ -19,6 +18,7 @@ export function MoviePreview() {
         <main>
           <section>
             <h1>{data.movie}</h1>
+            {/* a avaliação sera adicionada dinamicamente posteriormente, no momento aqui esta apenas para ilustrar */}
             <div className="avaible">
               <FaStar />
               <FaStar />
