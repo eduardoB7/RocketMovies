@@ -6,7 +6,7 @@ import { AuthRoutes } from "./authentic.routes";
 export function Router() {
   return (
     <BrowserRouter>
-      <AuthRoutes />
+      <AppRoutes />
     </BrowserRouter>
   );
 }
