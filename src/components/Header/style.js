@@ -33,10 +33,12 @@ export const Profile = styled.div`
     justify-content: center;
     width: max-content;
 
-    > h1 {
-      font-size: 1.4rem;
-      font-weight: 700;
-      color: ${({ theme }) => theme.COLORS.WHITE};
+    > a {
+      > h1 {
+        font-size: 1.4rem;
+        font-weight: 700;
+        color: ${({ theme }) => theme.COLORS.WHITE};
+      }
     }
 
     > button {

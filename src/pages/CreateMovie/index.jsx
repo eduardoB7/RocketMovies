@@ -5,13 +5,16 @@ import { Tag } from "../../components/Tag";
 import { GoArrowLeft } from "react-icons/go";
 import { Container, Content } from "./style";
 import { Input } from "../../components/Input";
+import { Link } from "react-router-dom";
 
 export function CreateMovie() {
   return (
     <Container>
       <Header />
       <Content>
-        <ButtonText icon={GoArrowLeft} texContent={"Voltar"} />
+        <Link to={"/"}>
+          <ButtonText icon={GoArrowLeft} texContent={"Voltar"} />
+        </Link>
         <h1>Novo filme</h1>
 
         <form>

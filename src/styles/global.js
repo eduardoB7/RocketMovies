@@ -17,6 +17,10 @@ body{
     height: 100vh;
 }
 
+a{
+  text-decoration: none;
+}
+
   /* Estilizando a barra de rolagem */
   /* Estilizando a barra */
   ::-webkit-scrollbar {
